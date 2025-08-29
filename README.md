@@ -8,3 +8,7 @@
 ### Lecture 05-01
 
 * `01-webserver`: two sample `html` files and a `Dockerfile` for experiments for files inside a container (using `nginx` web server)
+
+### Lecture 05-03
+
+* `01-docker-compose-exp`: a set of files for experimenting Docker Compose; the files distributed are in their initial states and participants are asked to add on features during the lab.
