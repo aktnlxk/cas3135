@@ -1,0 +1,11 @@
+{
+	"httpMethod": "GET",
+	"path": "/fact",
+    "queryStringParameters": {
+    	"x": "5"
+    },
+    "headers": {
+    	"Host": "localhost",
+        "X-Forwarded-Proto": "http"
+    }
+}

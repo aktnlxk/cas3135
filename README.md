@@ -12,3 +12,8 @@
 ### Lecture 05-03
 
 * `01-docker-compose-exp`: a set of files for experimenting Docker Compose; the files distributed are in their initial states and participants are asked to add on features during the lab.
+
+### Lecture 06-02
+
+* `01-lambda`: two JavaScript source files and two JSON configuration files used for test-deploying two Lambda functions (JSON files defining test events for functions)
+
