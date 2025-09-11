@@ -17,3 +17,7 @@
 
 * `01-lambda`: two JavaScript source files and two JSON configuration files used for test-deploying two Lambda functions (JSON files defining test events for functions)
 
+### Lecture 06-03
+
+* `01-amplify`: A React app intended for tests with AWS Amplify
+
