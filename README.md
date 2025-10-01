@@ -19,5 +19,13 @@
 
 ### Lecture 06-03
 
-* `01-amplify`: A React app intended for tests with AWS Amplify
+* `01-amplify`: a React app intended for tests with AWS Amplify
+
+### Lecture 07-03
+
+* `01-manifests`: two k8s manifests (deployment, service) used in experiments on Kubernetes object specs.
+
+### Lecture 08-03
+
+* `01-self-healing`: k8s manifests and shell (bash, PowerShell) scripts for experiments on Kubernetes self-healing mechanisms
 

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: dpy-hname
+  labels:
+    app: hostname
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hostname
+  template:
+    metadata:
+      labels:
+        app: hostname
+    spec:
+      containers:
+      - name: hname
+        image: <Your_Image_here>
+        ports:
+        - containerPort: 80
+
