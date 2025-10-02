@@ -25,7 +25,11 @@
 
 * `01-manifests`: two k8s manifests (deployment, service) used in experiments on Kubernetes object specs.
 
-### Lecture 08-03
+### Lecture 08-01
 
 * `01-self-healing`: k8s manifests and shell (bash, PowerShell) scripts for experiments on Kubernetes self-healing mechanisms
+
+### Lecture 08-02
+
+* `01-rollout`: k8s manifests used in experiments with rollout and rolling updates
 
