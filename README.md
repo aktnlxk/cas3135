@@ -33,3 +33,7 @@
 
 * `01-rollout`: k8s manifests used in experiments with rollout and rolling updates
 
+### Lecture 08-03
+
+* `01-hpa`: k8s manifests used in experiments with HPA (Horizontal Pod Autoscaler)
+
