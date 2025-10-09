@@ -1,6 +1,6 @@
 {
-	"httpMethod": "GET",
-	"path": "/fib",
+    "httpMethod": "GET",
+    "path": "/fib",
     "queryStringParameters": {
     	"x": "5"
     },
