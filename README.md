@@ -37,3 +37,9 @@
 
 * `01-hpa`: k8s manifests used in experiments with HPA (Horizontal Pod Autoscaler)
 
+### Lecture 09-01
+
+* `01-emptyDir`: k8s manifests for an emptyDir volume demo
+* `02-pv`: k8s manifests for PV & PVC
+* `03-statefulsets`: k8s manifests for a StatefulSet with a headless service
+
