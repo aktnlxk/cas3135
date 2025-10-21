@@ -43,3 +43,8 @@
 * `02-pv`: k8s manifests for PV & PVC
 * `03-statefulsets`: k8s manifests for a StatefulSet with a headless service
 
+### Lecture 09-02
+
+* `01-configmap`: k8s manifests for sample ConfigMaps and Deployments
+* `02-secret`: a demo showing typical usage patterns for ConfigMaps and Secrets
+

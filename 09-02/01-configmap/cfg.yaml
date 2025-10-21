@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: composer
+data:
+  surname: Bach
+  given_name: "J. S."
+

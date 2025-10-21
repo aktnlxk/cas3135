@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: configmap-volume
+  labels:
+    name: configmap-volume
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: configmap-volume
+  template:
+    metadata:
+      labels:
+        name: configmap-volume
+    spec:
+      containers:
+        - name: alpine
+          image: alpine:3
+          command:
+            - /bin/sh
+            - -c
+            - while true; do echo "$(date) My favoite team is $(cat /etc/config/team)";
+              sleep 10; done;
+          volumeMounts:
+            - name: config-volume
+              mountPath: /etc/config
+      volumes:
+        - name: config-volume
+          configMap:
+            name: team

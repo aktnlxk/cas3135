@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: configmap-env-var
+  labels:
+    name: configmap-env-var
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: configmap-env-var
+  template:
+    metadata:
+      labels:
+        name: configmap-env-var
+    spec:
+      containers:
+        - name: alpine
+          image: alpine:3
+          env:
+            - name: COLOR
+              valueFrom:
+                configMapKeyRef:
+                  key: color
+                  name: color
+          command:
+            - /bin/sh
+            - -c
+            - while true; do echo "$(date) My favorite color is $COLOR";
+                sleep 10; done;
